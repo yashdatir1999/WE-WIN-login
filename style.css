@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 90%;
+    width: 100%;
+    background-color: rgba(142, 133, 133, 0.867);
+}
+
+.btns {
+
+    transform: translate(12px, 13px);
+    height: 95%;
+    width: 98%;
+    background-color: white;
+    box-shadow: 0 0 7px black;
+}
+
+.butt {
+    background: linear-gradient(lightgray, gray);
+    border: none;
+
+}
+
+.btn1 {
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    border-top: 2px solid orangered;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.pink {
+    height: 92%;
+    width: 98%;
+    background-color: rgb(227, 111, 175);
+    transform: translate(10px, 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.date {
+    display: flex;
+    text-align: center;
+    border: 2px solid red;
+    width: 270px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    transform: translateY(50px);
+}
+
+.date>h4 {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.pink>h5 {
+    transform: translateY(100px);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.break {
+    transform: translateY(105px);
+    padding: 7px 15px;
+    background-color: rgb(251, 23, 23);
+    border: none;
+    color: white;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+sup {
+    color: red;
+    font-size: 23px;
+}
+
+.selectbrk {
+    padding-right: 90px;
+    transform: translateY(-15px);
+    border: none;
+    outline: none;
+
+
+}
+
+.selectdis {
+    padding-right: 90px;
+    border: none;
+    outline: none;
+    transform: translateY(5px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.futter {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(24, 119, 242);
+    display: flex;
+    color: white;
+    font-size: 12px;
+    gap: 15px;
+
+}
+
+.futter>img {
+    position: absolute;
+    z-index: 20;
+    height: 130px;
+    bottom: -19px;
+}
+
+.futter-hadding1 {
+    padding-left: 130px;
+}
+
+.fh {
+    padding-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.futter>h5 {
+    position: absolute;
+    bottom: 15px;
+    left: 170px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+.ri-arrow-right-double-line{
+    position: absolute;
+    background-color: black;
+    left: 1150px;
+    z-index: 10;
+    font-size: 17px;
+}
